@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+
+
+header{
+  background-color: #e2d4b7;
+  margin: auto;
+  padding: 12px;
+  font-family: anonymous pro;
+  text-align: center;
+}
+
+
+h2{
+  text-align: center;
+  font-family: source code pro;
+  font-size: 30px;
+  background-color: #B0BBBF; 
+}
+
+
+.box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  grid-gap: 10px 20px;
+}
+
+.box1{
+  border: 1px solid #CADBC8;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 5px 4px 15px 4px;
+}
+.box2{
+  border: 1px solid #CADBC8;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 5px 4px 15px 4px;
+}
+.box3{
+  border: 1px solid #CADBC8;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 5px 4px 15px 4px;
+}
+.box4{
+  border: 1px solid #CADBC8;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 5px 4px 15px 4px;
+}
+.box5{
+  border: 1px solid #CADBC8;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 5px 4px 15px 4px;
+}
+.box6{
+  border: 1px solid #CADBC8;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 5px 4px 15px 4px;
+}
+
+
+p{
+  font-family: inconsolata;
+  font-size: 20px;
+}
+
+
+a{
+  font-size: 20px;
+  text-align: center;
+  font-family: anonymous pro;
+  font-weight: bold;
+  transition: 1s all ease;
+}
+
+a:hover{
+  background-color: #CADBC8;
+  margin: 30px;
+  padding: 10px 30px;
+}
+
+
+footer{
+  text-align: center;
+  font-size: 20px;
+  background-color: #e2d4b7;
+}
